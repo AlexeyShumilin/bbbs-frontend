@@ -7,9 +7,10 @@ function VideoHeader() {
       <article className="block-video-header block-video-header_type_description background-yellow">
         <h2 className="block-video-header__title">Эфир с выпускником нашей программы</h2>
         <p className="block-video-header__caption">Иван Рустаев, выпускник программы</p>
-        <a href="#" className="block-video-header__category">смотреть видео</a>
+        <a href="/#" className="block-video-header__category">смотреть видео</a>
       </article>
       <article className="block-video-header">
+        {/* eslint-disable-next-line jsx-a11y/iframe-has-title */}
         <iframe className="block-video-header__iframe"/>
       </article>
     </section>

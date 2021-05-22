@@ -34,9 +34,12 @@ function Header() {
           </li>
         </ul>
       </nav>
+      {/* eslint-disable-next-line jsx-a11y/control-has-associated-label */}
       <button type="button" className="header__search" />
       <div className="header__divisor" />
+      {/* eslint-disable-next-line jsx-a11y/control-has-associated-label */}
       <button type="button" className="header__account" />
+      {/* eslint-disable-next-line jsx-a11y/control-has-associated-label */}
       <button type="button" className="header__menu" />
     </header>
   );

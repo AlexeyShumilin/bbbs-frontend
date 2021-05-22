@@ -5,6 +5,7 @@ function Footer() {
     <footer className="footer page__footer">
 
       <div className="footer__three-columns">
+        {/* eslint-disable-next-line jsx-a11y/anchor-has-content,jsx-a11y/control-has-associated-label */}
         <a href="/#" className="footer__logo" />
         <button type="button" className="footer__donation">Помочь деньгами</button>
         <div className="footer__info">

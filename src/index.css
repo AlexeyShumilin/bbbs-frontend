@@ -87,9 +87,40 @@
 @import url(../src/blocks/block-place/__text/_size/block-place__text_size_small.css);
 @import url(../src/blocks/block-place/__title/_size/block-place__title_size_small.css);
 
+@import url(../src/blocks/MIX/background-green.css);
+
+@import url(../src/blocks/block-photo/__title/block-photo__title.css);
+
+@import url(../src/blocks/block-photo/block-photo.css);
+
+@import url(../src/blocks/block-guest/block-guest.css);
+@import url(../src/blocks/block-guest/__title/block-guest__title.css);
+@import url(../src/blocks/block-guest/__logo/block-guest__logo.css);
+@import url(../src/blocks/block-guest/__container-header/block-guest__container-header.css);
+@import url(../src/blocks/block-guest/__container-body/block-guest__container-body.css);
+
+@import url(../src/blocks/four-columns/four-columns.css);
+/*VIDEO*/
+@import url(../src/blocks/block-video/block-video.css);
+@import url(../src/blocks/block-video/__title/block-video__title.css);
+@import url(../src/blocks/block-video/__iframe/block-video__iframe.css);
+@import url(../src/blocks/block-video/__category/block-video__category.css);
+@import url(../src/blocks/block-video/__category/_type/block-video__category_type_overflow-video.css);
+@import url(../src/blocks/block-video/__caption/block-video__caption.css);
+@import url(../src/blocks/block-video/__caption/_type/block-video__caption_type_overflow.css);
+
+
+/*VIDEO HEADER*/
+
+@import url(../src/blocks/block-video-header/block-video-header.css);
+@import url(../src/blocks/block-video-header/_type/block-video-header_type_description.css);
+@import url(../src/blocks/block-video-header/__iframe/block-video-header__iframe.css);
+@import url(../src/blocks/block-video-header/__title/block-video-header__title.css);
+@import url(../src/blocks/block-video-header/__category/block-video-header__category.css);
+@import url(../src/blocks/block-video-header/__caption/block-video-header__caption.css);
 
 /*
-@import url(../src/blocks/four-columns/four-columns.css);
+
 @import url(../src/blocks/three-columns/three-columns.css);
 @import url(../src/blocks/three-columns/_style/three-columns_style_place.css);
 */
@@ -106,37 +137,20 @@
 @import url(../src/blocks/block-calendar/__caption/block-calendar__caption.css);
 @import url(../src/blocks/block-calendar/__adress/block-calendar__adress.css);
 @import url(../src/blocks/block-calendar/__add/block-calendar__add.css);
-@import url(../src/blocks/block-photo/block-photo.css);
-@import url(../src/blocks/block-photo/__title/block-photo__title.css);
+
 @import url(../src/blocks/MIX/background-blue.css);
-@import url(../src/blocks/MIX/background-green.css);
+
 @import url(../src/blocks/MIX/background-orange.css);
 
 
 
-@import url(../src/blocks/block-video/block-video.css);
-@import url(../src/blocks/block-video/__title/block-video__title.css);
-@import url(../src/blocks/block-video/__iframe/block-video__iframe.css);
-@import url(../src/blocks/block-video/__category/block-video__category.css);
-@import url(../src/blocks/block-video/__category/_type/block-video__category_type_overflow-video.css);
-@import url(../src/blocks/block-video/__caption/block-video__caption.css);
-@import url(../src/blocks/block-video/__caption/_type/block-video__caption_type_overflow.css);
-@import url(../src/blocks/block-video-header/block-video-header.css);
-@import url(../src/blocks/block-video-header/_type/block-video-header_type_description.css);
-@import url(../src/blocks/block-video-header/__iframe/block-video-header__iframe.css);
-@import url(../src/blocks/block-video-header/__title/block-video-header__title.css);
-@import url(../src/blocks/block-video-header/__category/block-video-header__category.css);
-@import url(../src/blocks/block-video-header/__caption/block-video-header__caption.css);
+
 @import url(../src/blocks/block-links/block-links.css);
 @import url(../src/blocks/block-links/__iframe/block-links__iframe.css);
 @import url(../src/blocks/block-questions/block-questions.css);
 @import url(../src/blocks/block-questions/__title/block-questions__title.css);
 @import url(../src/blocks/block-questions/__category/block-questions__category.css);
-@import url(../src/blocks/block-guest/block-guest.css);
-@import url(../src/blocks/block-guest/__title/block-guest__title.css);
-@import url(../src/blocks/block-guest/__logo/block-guest__logo.css);
-@import url(../src/blocks/block-guest/__container-header/block-guest__container-header.css);
-@import url(../src/blocks/block-guest/__container-body/block-guest__container-body.css);
+
 @import url(../src/blocks/popup/popup.css);
 @import url(../src/blocks/popup/__title/popup__title.css);
 @import url(../src/blocks/popup/__message/popup__message.css);

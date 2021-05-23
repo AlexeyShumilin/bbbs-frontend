@@ -119,11 +119,15 @@
 @import url(../src/blocks/block-video-header/__category/block-video-header__category.css);
 @import url(../src/blocks/block-video-header/__caption/block-video-header__caption.css);
 
-/*
 
+@import url(../src/blocks/about/about__header.css);
+@import url(../src/blocks/about/about__subtitle.css);
+@import url(../src/blocks/about/about__circle-square.css);
+@import url(../src/blocks/about/about__accent.css);
+@import url(../src/blocks/MIX/background-orange.css);
 @import url(../src/blocks/three-columns/three-columns.css);
 @import url(../src/blocks/three-columns/_style/three-columns_style_place.css);
-*/
+
 
 /*
 @import url(../src/blocks/block-calendar/block-calendar.css);
@@ -139,11 +143,6 @@
 @import url(../src/blocks/block-calendar/__add/block-calendar__add.css);
 
 @import url(../src/blocks/MIX/background-blue.css);
-
-@import url(../src/blocks/MIX/background-orange.css);
-
-
-
 
 @import url(../src/blocks/block-links/block-links.css);
 @import url(../src/blocks/block-links/__iframe/block-links__iframe.css);
@@ -248,9 +247,5 @@
 @import url(../src/blocks/popup-calendar/__logoImg/popup-calendar__logoImg.css);
 @import url(../src/blocks/list/__submit/_return/list__submit_return.css);
 @import url(../src/blocks/list/__done/list__done.css);
-@import url(../src/blocks/about/about__header.css);
-@import url(../src/blocks/about/about__subtitle.css);
-@import url(../src/blocks/about/about__circle-square.css);
-@import url(../src/blocks/about/about__accent.css);
 @import url(../src/blocks/MIX/visible-block.css);
 */

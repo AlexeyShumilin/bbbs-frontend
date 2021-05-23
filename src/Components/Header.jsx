@@ -1,36 +1,37 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
     <header className="header page__header">
-      <a href="./index.html" className="header__logo">наставники.про</a>
+      <Link to="/" className="header__logo">наставники.про</Link>
       <nav className="navigation navigation_place_header">
         <ul className="navigation__links navigation__links_place_header">
           <li className="navigation__list">
-            <a
-              href="./calendar.html"
+            <Link
+              to="/calendar"
               className="navigation__link navigation__link_place_header"
             >
               календарь
-            </a>
+            </Link>
           </li>
           <li className="navigation__list">
-            <a href="./places.html" className="navigation__link navigation__link_place_header">
+            <Link to='/place' className="navigation__link navigation__link_place_header">
               куда
               пойти
-            </a>
+            </Link>
           </li>
           <li className="navigation__list">
-            <a href="/#" className="navigation__link navigation__link_place_header">вопросы</a>
+            <Link to="/questions" className="navigation__link navigation__link_place_header">вопросы</Link>
           </li>
           <li className="navigation__list">
-            <a href="/#" className="navigation__link navigation__link_place_header">читать и смотреть</a>
+            <Link to="/read-and-watch" className="navigation__link navigation__link_place_header">читать и смотреть</Link>
           </li>
           <li className="navigation__list">
-            <a href="/#" className="navigation__link navigation__link_place_header">права детей</a>
+            <Link to="/for-kids" className="navigation__link navigation__link_place_header">права детей</Link>
           </li>
           <li className="navigation__list">
-            <a href="/#" className="navigation__link navigation__link_place_header">истории</a>
+            <Link to="/stories" className="navigation__link navigation__link_place_header">истории</Link>
           </li>
         </ul>
       </nav>

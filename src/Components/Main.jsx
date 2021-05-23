@@ -7,14 +7,16 @@ import VideoHeader from './Video_Header';
 
 function Main() {
   return (
-    <main className="content page__content">
-      <First/>
-      <Place/>
-      <Article/>
-      <Video/>
-      <VideoHeader/>
-    </main>
-  );
+    <>
+      <main className="content page__content">
+        <First />
+        <Place />
+        <Article />
+        <Video />
+        <VideoHeader />
+      </main>
+    </>
+  )
 }
 
 export default Main;
